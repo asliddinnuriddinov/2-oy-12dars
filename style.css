@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    min-height: 100px;
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    color: bisque;
+    bottom: 50px;
+    left: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+    border: none;
+}
